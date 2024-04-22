@@ -13,7 +13,9 @@ function Header() {
             <b>Safety Helmet Detection Using Raspberry PI and YOLOv8</b>
           </span>
         </h1>
-        <p>Arel, Amadeo, Hakiim, Anindya</p>
+        <p style={{textAlign: "center", marginTop: "2em"}}>
+          Arel, Amadeo, Hakiim, Anindya
+          </p>
       </div>
     </header>
   );

@@ -19,7 +19,7 @@ function Content() {
             style={{display: "block", width: "auto", height: "auto", objectFit: "contain", paddingBottom: "20px", marginLeft: "auto", marginRight: "auto", maxWidth: "70vw"}}></img>
             
             <div className={`${ContentCSS.displayTopLeft} ${ContentCSS.black} ${ContentCSS.padding}`}
-            style={{textAlign: "center", fontSize: "3vw"}}>
+            style={{textAlign: "center", fontSize: "clamp(1rem, 4vw, 1.5rem)"}}>
               Text placeholder
             </div>
           </div>
