@@ -34,23 +34,4 @@
   p{
     font-size: clamp(1rem, 4vw, 1.5rem);
     text-align: justify;
-    color: black;
-  }
-
-  h3{
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    text-align: justify;
-    color: black;
-  }
-
-  h1{
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    text-align: center;
-    color: black;
-  }
-
-  h2{
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    text-align: justify;
-    color: black;
   }

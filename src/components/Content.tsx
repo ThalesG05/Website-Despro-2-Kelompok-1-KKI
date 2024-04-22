@@ -5,7 +5,7 @@ import Team from "./Team"
 function Content() {
   return (
     // PAGE CONTENT
-    <div className={`${ContentCSS.content}`} style={{ maxWidth: "100%" }}>
+    <div className={`${ContentCSS.content} ${ContentCSS.padding}`} style={{ maxWidth: "100%" }}>
       {/* Camera Capture Section */}
       <div className={`${ContentCSS.container} ${ContentCSS.padding32}`} id="Project">
         <h3 className={`${ContentCSS.borderBottom} ${ContentCSS.borderLightGrey} ${ContentCSS.padding16}`}>Project</h3>
