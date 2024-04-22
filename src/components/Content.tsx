@@ -5,7 +5,7 @@ import Team from "./Team"
 function Content() {
   return (
     // PAGE CONTENT
-    <div className={`${ContentCSS.content} ${ContentCSS.padding}`} style={{ maxWidth: "1920px" }}>
+    <div className={`${ContentCSS.content} ${ContentCSS.padding}`} style={{ maxWidth: "100%" }}>
       {/* Camera Capture Section */}
       <div className={`${ContentCSS.container} ${ContentCSS.padding32}`} id="Project">
         <h3 className={`${ContentCSS.borderBottom} ${ContentCSS.borderLightGrey} ${ContentCSS.padding16}`}>Project</h3>
@@ -14,9 +14,12 @@ function Content() {
       <div className={ContentCSS.rowPadding}>
         <div className={`${ContentCSS["13"]} ${ContentCSS.m6} ${ContentCSS.marginBottom}`}>
           <div className={ContentCSS.displayContainer}>
-            <img src="https://univindonesia-my.sharepoint.com/:i:/r/personal/erdhy_ernando_office_ui_ac_id/Documents/Non-UI%20Things/%232%20Photo%20%26%20Video%20Backup/Paris%202023/IMG_1816.JPG" style={{width: "30%", paddingBottom: "20px", marginLeft: "30vw", maxWidth: "1920px"}}></img>
+            <img src="https://univindonesia-my.sharepoint.com/:i:/r/personal/erdhy_ernando_office_ui_ac_id/Documents/Non-UI%20Things/%232%20Photo%20%26%20Video%20Backup/Paris%202023/IMG_1814.JPG"
+            
+            style={{display: "block", width: "auto", height: "auto", objectFit: "contain", paddingBottom: "20px", marginLeft: "auto", marginRight: "auto", maxWidth: "70vw"}}></img>
+            
             <div className={`${ContentCSS.displayTopLeft} ${ContentCSS.black} ${ContentCSS.padding}`}
-            style={{textAlign: "center"}}>
+            style={{textAlign: "center", fontSize: "3vw"}}>
               Text placeholder
             </div>
           </div>

@@ -8,3 +8,8 @@
     margin-right: auto;
     margin-top: 2em;
 }
+
+.text{
+    font-size: 5vw;
+    text-align: justify;
+}
