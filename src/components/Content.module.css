@@ -1,0 +1,70 @@
+.content{
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30em;
+}
+
+.padding{
+    padding: 8px 16px !important;
+}
+
+.container{
+    padding: 0.01em 16px;
+}
+
+.padding32{
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+
+.borderBottom{
+    border-bottom: 3px solid #ccc !important;
+}
+
+.borderLightGrey{
+    border-color: #f1f1f1 !important;
+}
+
+.padding16{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.rowpadding{
+    padding: 0 8px;
+}
+
+.col.m6{
+    width: 50%;
+}
+
+.marginBottom{
+    margin-bottom: 16px !important;
+}
+
+
+
+.displayContainer{
+    width: 90vw;
+    position: relative;
+    left: 3%;
+    margin: 20px;
+}
+
+.displayTopleft{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.black{
+    color: #000000 !important;
+    background-color: #00000023 !important;
+}
+
+.displayContainer::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
