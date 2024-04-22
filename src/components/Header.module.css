@@ -1,0 +1,53 @@
+.displayContainer{
+    padding: 0.01em 16px;
+}
+
+.content{
+    margin: auto;
+}
+
+.wide{
+    letter-spacing: 4px;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+.displayMiddle{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.marginTop{
+    margin-top: 16px !important;
+}
+
+.center{
+    text-align: center !important;
+}
+
+.xxlarge{
+    font-size: 36px !important;
+}
+
+.textWhite{
+    color: #fff !important;
+}
+
+.padding{
+    padding: 8px 16px !important;
+}
+
+.black{
+    color: #000000 !important;
+}
+
+.opacityMin{
+    opacity: 0.75;
+
+}
