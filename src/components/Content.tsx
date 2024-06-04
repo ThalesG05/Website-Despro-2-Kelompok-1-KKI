@@ -1,11 +1,14 @@
+import React, { useState, useEffect } from 'react';
 import ContentCSS from "./Content.module.css";
 import About from "./About"
 import Team from "./Team"
+import ImageComponent from './ImageComponent'; // Import ImageComponent
 
 function Content() {
+  
   return (
     // PAGE CONTENT
-    <div className={`${ContentCSS.content} ${ContentCSS.padding}`} style={{ maxWidth: "100%" }}>
+    <div className={`${ContentCSS.content}`} style={{ maxWidth: "100%" }}>
       {/* Camera Capture Section */}
       <div className={`${ContentCSS.container} ${ContentCSS.padding32}`} id="Project">
         <h3 className={`${ContentCSS.borderBottom} ${ContentCSS.borderLightGrey} ${ContentCSS.padding16}`}>Project</h3>
@@ -14,13 +17,13 @@ function Content() {
       <div className={ContentCSS.rowPadding}>
         <div className={`${ContentCSS["13"]} ${ContentCSS.m6} ${ContentCSS.marginBottom}`}>
           <div className={ContentCSS.displayContainer}>
-            <img src="https://univindonesia-my.sharepoint.com/:i:/r/personal/erdhy_ernando_office_ui_ac_id/Documents/Non-UI%20Things/%232%20Photo%20%26%20Video%20Backup/Paris%202023/IMG_1814.JPG"
+          <ImageComponent
             
-            style={{display: "block", width: "auto", height: "auto", objectFit: "contain", paddingBottom: "20px", marginLeft: "auto", marginRight: "auto", maxWidth: "70vw"}}></img>
+            style={{display: "block", width: "auto", height: "auto", objectFit: "contain", paddingBottom: "20px", marginLeft: "auto", marginRight: "auto", maxWidth: "70vw", justifyContent: 'center'}}></ImageComponent>
             
             <div className={`${ContentCSS.displayTopLeft} ${ContentCSS.black} ${ContentCSS.padding}`}
             style={{textAlign: "center", fontSize: "clamp(1rem, 4vw, 1.5rem)"}}>
-              Text placeholder
+              Latest Violation
             </div>
           </div>
           <div style={{ clear: 'both' }}></div>
