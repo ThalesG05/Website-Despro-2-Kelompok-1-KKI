@@ -1,7 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect, CSSProperties } from 'react';
 import axios from 'axios';
 
-function ImageComponent({ style }) {
+interface ImageComponentProps {
+  style?: CSSProperties; // This uses the built-in CSSProperties type from React
+}
+
+function ImageComponent({ style }: ImageComponentProps) {
   const [latestImage, setLatestImage] = useState('');
 
   useEffect(() => {
