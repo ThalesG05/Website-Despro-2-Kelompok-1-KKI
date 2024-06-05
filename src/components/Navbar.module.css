@@ -51,7 +51,8 @@
   }
 
   .right{
-    float:right!important;
+    float:right !important;
+    margin-right: 2%;
   }
 
   .small{
