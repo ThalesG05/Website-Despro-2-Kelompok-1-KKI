@@ -28,6 +28,7 @@ function Content() {
   return (
     // PAGE CONTENT
     <div className={`${ContentCSS.content}`} style={{ maxWidth: "100%" }}>
+
       {/* Camera Capture Section */}
       <div className={`${ContentCSS.container} ${ContentCSS.padding32}`} id="Project">
         <h3 className={`${ContentCSS.borderBottom} ${ContentCSS.borderLightGrey} ${ContentCSS.padding16}`}>Project</h3>
@@ -45,6 +46,7 @@ function Content() {
             
             <div className={`${ContentCSS.displayTopLeft} ${ContentCSS.black} ${ContentCSS.padding}`}
             style={{textAlign: "center", fontSize: "clamp(1rem, 4vw, 1.5rem)"}}>
+              Latest Violation
               Latest Violation
             </div>
           </div>
